@@ -6,6 +6,10 @@ This is a test of doing Python plugins. The main goal of the test was to add a p
 
 This test is a possible way that 3D Slicer could implement a Python-based plugin architecture, in addition to its existing module management facilities.
 
+## Using this repository
+
+The intended way to use this repository is to install `PluginCore`, `PluginA`, and `PluginB` as editable packages (`pip install -e PluginCore`, etc) into a virtual environment and then use the Python interpreter to run the imports.
+
 ## Limitations
 
 Known limitations of this method include:
